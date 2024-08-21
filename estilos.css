@@ -59,6 +59,26 @@ header{
   rgba(2,89,73, .6),
   rgba(44,193,134, .6),
   rgba(3,140,115, .45)
-  );
+  ),url(imagen/fondo_indiseg.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 
+nav{
+  position: fixed;
+  height:80px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+}
+
+.nav1{
+  background: transparent;
+  height:80px;
+  color: #fff;
+}
+
+.nav2{
+  background: var(--fondo);
+  height:100px;
+  color: #000;
 }
